@@ -30,26 +30,26 @@ python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 pip install -r requirements.txt
 
-Usage
+## Usage
 Clone this repository to your local machine.
 Ensure you have the pre-trained logistic regression model ('model.pkl') in the same directory as the script ('diabetes_prediction.py').
 Open a command prompt or terminal and navigate to the directory where the script is located.
 Run the script with the --value argument followed by a comma-separated list of feature values that you want to classify.
-For example:
+## For example:
 python diabetes_prediction.py --value "6,148,72,35,0,33.6,0.627,50"
 
 Follow the instructions in the script to make predictions.
 
-Model Training
+## Model Training
 The project uses a logistic regression model to classify individuals into two classes: diabetes and no diabetes. The pre-trained model is saved as 'model.pkl'.
 
-Evaluation
+## Evaluation
 The script provides binary predictions. You can evaluate the model's performance using metrics like accuracy, precision, recall, and F1-score.
 
-Results
+## Results
 The project provides predictions for diabetes based on the input features. The performance of the model may vary depending on the dataset used.
 
-Future Improvements
+## Future Improvements
 There are several ways to improve the model and the project:
 
 Explore more advanced machine learning techniques.

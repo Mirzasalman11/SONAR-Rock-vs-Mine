@@ -7,7 +7,7 @@ This project is a machine-learning classification task that aims to predict whet
 ## Dataset
 
 - **Dataset Name**: Diabetes dataset
-- **Data Source**: The dataset is available from [source link].
+- **Data Source**:  upload on git.
 - The dataset contains the following attributes:
   - Feature columns (8): Numerical values representing various health-related features.
   - Target column: Binary variable (0 for no diabetes, 1 for diabetes).
@@ -15,9 +15,8 @@ This project is a machine-learning classification task that aims to predict whet
 ## Project Structure
 
 - `README.md`: Documentation of the project.
-- `diabetes_prediction.py`: Python script for making diabetes predictions.
-- `requirements.txt`: List of Python packages and dependencies.
-- `model.pkl`: Pre-trained logistic regression model for diabetes prediction.
+- `main.py`: Python script for making diabetes predictions.
+- `logistic_regression_model.pkl`: Pre-trained logistic regression model for diabetes prediction.
 
 ## Setup
 
@@ -32,7 +31,7 @@ pip install -r requirements.txt
 
 ## Usage
 Clone this repository to your local machine.
-Ensure you have the pre-trained logistic regression model ('model.pkl') in the same directory as the script ('diabetes_prediction.py').
+Ensure you have the pre-trained logistic regression model ('logistic_regression_model.pkl') in the same directory as the script ('diabetes_prediction.py').
 Open a command prompt or terminal and navigate to the directory where the script is located.
 Run the script with the --value argument followed by a comma-separated list of feature values that you want to classify.
 ## For example:
@@ -41,7 +40,7 @@ python diabetes_prediction.py --value "6,148,72,35,0,33.6,0.627,50"
 Follow the instructions in the script to make predictions.
 
 ## Model Training
-The project uses a logistic regression model to classify individuals into two classes: diabetes and no diabetes. The pre-trained model is saved as 'model.pkl'.
+The project uses a logistic regression model to classify individuals into two classes: diabetes and no diabetes. The pre-trained model is saved as 'logistic_regression_model.pkl'.
 
 ## Evaluation
 The script provides binary predictions. You can evaluate the model's performance using metrics like accuracy, precision, recall, and F1-score.
